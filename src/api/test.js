@@ -1,4 +1,5 @@
 const Joi = require('joi');
+//https://app-hapi.herokuapp.com/
 
 exports.plugin = {
 	name: 'test',
@@ -9,13 +10,23 @@ exports.plugin = {
 
 		server.route({
 			method: 'GET',
-			path: '/',
+			path: '/{name}',
 			config: {
 				async handler(req) {
-					return `<h1>Hello</h1>`
+					try {
+						const {db}=require('../plugins/firebase'), {name}=req.params;
+
+						const wordsRef = await db.ref(name).once('value');
+						return `<h1>${wordsRef.val()}</h1>`
+					}catch(err){
+						console.log(err)
+					}
 				},
 				description: 'Hello',
 				tags: ['api'],
+				validate:{
+					params: Joi.object({name:Joi.string().required()})
+				},
 				auth:false
 			}
 		});

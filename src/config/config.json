@@ -17,5 +17,17 @@
 				"description":"Все команды"
 			}
 		]
+	},
+	"db": {
+		"type": "service_account",
+		"project_id": "hapi-project-57d8a",
+		"private_key_id": "f50031677c7ea837eddcb2d52e16aa8d481e106c",
+		"private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCcOGbSr/R5RcQl\nuULhq/5zMNeIO8wiX27oA4JQNohSfTt/4X9cxLwjf8au2Gqxc8VMFC6sAjeAjthA\nuXLMQdMrxf5ZfhezIS5o06xjjFvY8V3tqb+AVbh8V2BpJnAFP+bLGrV5X4eCfXF6\not+NUrYvOsf3JICwtH6NVzwKM99GC0GZiKz966atS/IAZk2rrkcl5wDkh7UBGpeD\n0W5ytSAITrlSy6Zh8jULiiOqvlnQVbYBlsb60kLgHbqvTsmKVXModLE3g3eLDYeB\nO4kmYOFG6uWPNxJ33Cw5wDkpfNjtAd95Wef3sXKJ5P2NNH/pADuxQt2k9ZSqxvFL\nHe2ZXy0DAgMBAAECggEAB1sY7Slcc7KaYoPylCmJZ2DwrSYGESvfaLmNkvuJkYf7\nDr6OXpuW5LCfqUKTsSJeszV6Ex7EzUVf0mbJDIW6Jn2be398wmVsFLYiD/5SbtWP\neWFJg20sRpKSSn4FJU7vR54ACiSHS9iRrz21e0D4E7ykhzMaHV5XKfTMsdaw2APp\nyvcvLuBVrJE8HPdODNBwcFEngtcpywy64BRSmxl6P41UNL6SjzOY0OmZ1BYdWXQI\nJ3odNfKGdNmG6IQbVYoo5asSY+P3mjczWPFpHPEDy5PcrX2vLPAQvKdC+gLg3+To\nkomlORs05vLg+e3R3kPbw9AbpWRuuPrHX1P2Qc0M+QKBgQDWSoQSQMpMM17HY1Tr\nC9fSohgraHtBz5s2N1cOrzPtim3eOG84CrrexroRsR3uf4lbO1tHovrinIqCeslo\nqGFOVOs+xWCQiShLGBtRV/JyH0UgpIOY/ZgnSCSQvuA1wHCXos6SO++HGleroO/2\nA5d3PFCBPs2wgJ4Tym3zZdQ96QKBgQC6oGSy7J9LyMTZur2QLM0Ad/ZNkRBjP2yf\nBujd9R+LHx4KdSTMkQZfrOpSsRFpzNash1g376SjfKSrSgfgHqVwRjZX3GaWn1/T\ndxdWOyU+4dvJbwFu0u+i9efHElkrOjlKNPLvof0Aa2W9Gp3eN0L8YZQKhx3m4nvc\nQfwkbhXkCwKBgQC0RONt54tHJz/oRCu/v6rDyxDCE5b8+gT8Svm1pLXucrGSa69E\nWeJyXoNRNsqTRD7svLZBQV4FHON4eIrOvDd/ifiMSca+UGPRKGpyt6WBU8T3fO4n\n2c4R3aLFEY3UKhuNtKxKYJlT8lkmTLERKFxXNioTUB4BCXHx/C0awOMXYQKBgGWB\n5AOlzCbuNpOujHikxYQhu6gI5P72emAs4/AF6XhEHpTVjoRtxSe452K+yJfhQEpq\n+0LBZ608mFxKUepHAPkGV3yGdo4qdXaRafIPDX0cX+06IW9j78+VLNIMWs+2RX7l\nOdW5J+FYiOfIWGGLcTXQ5TKst0jjmzb79ObjsahtAoGAKuQ1aIEsMN0StRtRaPJU\nDx6hDfst/ekuSVkp4m/7/U0UVmfkQKDmH6VCMd9AHnkUA/3+FtEJbbKV3grq00/1\nQEoZhZCie8swgBAJR/8LOT0NHWhNoyoHWqkRqyzS2JehxJYixdZhhPH7b834duuU\nze4ZWfw9ZBpzh04QYDxCnnY=\n-----END PRIVATE KEY-----\n",
+		"client_email": "firebase-adminsdk-m2zz6@hapi-project-57d8a.iam.gserviceaccount.com",
+		"client_id": "117795661265419643475",
+		"auth_uri": "https://accounts.google.com/o/oauth2/auth",
+		"token_uri": "https://oauth2.googleapis.com/token",
+		"auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+		"client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-m2zz6%40hapi-project-57d8a.iam.gserviceaccount.com"
 	}
 }
