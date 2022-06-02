@@ -5,7 +5,7 @@ const init = async (configs) => {
 	const server = new Hapi.Server({
 		debug: { request: ['error'] },
 		host:host,
-		port: port//,
+		port: process.env.PORT || port//,
 		//routes: {
 		//	cors: {
 		//		origin: ['*'],
