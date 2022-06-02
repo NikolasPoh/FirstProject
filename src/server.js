@@ -1,10 +1,11 @@
 const Hapi = require('@hapi/hapi');
+const ip = require("ip");
 
 const init = async (configs) => {
 	const {host,port} = configs.server;
 	const server = new Hapi.Server({
 		debug: { request: ['error'] },
-		host:host,
+		host: ip.address() || host,
 		port: process.env.PORT || port//,
 		//routes: {
 		//	cors: {

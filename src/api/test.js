@@ -12,7 +12,7 @@ exports.plugin = {
 			path: '/',
 			config: {
 				async handler(req) {
-					return "Hello"
+					return `<h1>Hello</h1>`
 				},
 				description: 'Hello',
 				tags: ['api'],
