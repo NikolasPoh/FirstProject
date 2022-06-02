@@ -1,0 +1,21 @@
+{
+	"modules": {},
+	"server": {
+		"host": "localhost",
+		"port": 3000,
+		"plugins": ["swagger","laabr"],
+		"modules": ["test"]
+	},
+	"swagger": {
+		"info": {
+			"title": "API",
+			"version": "0.0.1"
+		},
+		"tags":[
+			{
+				"name":"api",
+				"description":"Все команды"
+			}
+		]
+	}
+}
